@@ -1,0 +1,43 @@
+.container {
+    background-color: rgb(39 39 42 );
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block {
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    background-color: rgb(63 63 70);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.block:hover {
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.statusError {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.statusSuccess {
+    color: #388e3c;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}

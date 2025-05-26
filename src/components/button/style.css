@@ -1,0 +1,42 @@
+.btn {
+    display: flex; /* <-- ESSENCIAL */
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    background: linear-gradient(45deg, #7f5af0, #4ea8de);
+    border: none;
+    color: #ffffff;
+    padding: 14px 0;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #6d47e5, #449ac9);
+    transform: translateY(-2px);
+}
+
+.btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+
+
+
+.Link {
+    width: 500px;
+    height: 100px;
+    background-color: red;
+
+}
