@@ -4,7 +4,7 @@ import SockJS from 'sockjs-client';
 let stompClient = null;
 
 export const connectStomp = (onMessage) => {
-  const socket = new SockJS('http://localhost:8082/gs-guide-websocket'); // ajuste a URL se necessário
+  const socket = new SockJS('https://chatwebsocket-k98a.onrender.com/gs-guide-websocket'); // ajuste a URL se necessário
 
   stompClient = new Client({
     webSocketFactory: () => socket,
